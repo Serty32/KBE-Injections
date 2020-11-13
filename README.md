@@ -48,13 +48,18 @@ Password for 'sinelser' is ded93
 ## Exercise 6
 To obtain teacher's password I've used prepared script to get a lot of popular passwords
 The result file is 587 Mb. Then I have decided to use hashcat to go through all the combinations in that file.
+Then I wrote method to add salt to each word and eventually run:
  
 ```
-offset=10 UNION SELECT CONCAT("  USERNAME IS ", username, "  PASSWORD IS  ", password, "  SALT IS  ", salt, "   PIN IS", pin, "  SECRET IS  ", secret) AS date_time, '' AS message FROM users
+hashcat -a 0 -m 110 hashes.txt passwordsWithSalt.txt
 ```
 
+Where hashes.txt has only hash of teacher's password and passwordsWithSalt.txt has a lot of passwords with put salt.
+
+####Password is fm9fytmf7q
+
 ## Exercise 7
- Because it is not good
+ Because password doesn't have any symbols like $_&#@(. Also it doesn't have Upper letters.
 
 ## Exercise 8
 I've written 2 Injections:
@@ -70,6 +75,6 @@ offset=10 UNION SELECT table_name AS message, '' AS date_time FROM information_s
 ## Exercise 9
  
 ```
-9
+Imposibile
 ```
 
