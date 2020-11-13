@@ -41,7 +41,7 @@ offset=10 UNION SELECT CONCAT("  USERNAME IS ", username, "  PASSWORD IS  ", pas
 ## Exercise 5
 To obtain my password I've used BruteForce
 ```
-Password for 'sinelser' is ded93
+Password for `sinelser` is ded93
 ```
 
 
@@ -54,9 +54,12 @@ Then I wrote method to add salt to each word and eventually run:
 hashcat -a 0 -m 110 hashes.txt passwordsWithSalt.txt
 ```
 
-Where hashes.txt has only hash of teacher's password and passwordsWithSalt.txt has a lot of passwords with put salt.
+Where `hashes.txt` has only hash of teacher's password and `passwordsWithSalt.txt` has a lot of passwords with put salt.
 
-####Password is fm9fytmf7q
+Password is
+```
+fm9fytmf7q
+```
 
 ## Exercise 7
  Because password doesn't have any symbols like $_&#@(. Also it doesn't have Upper letters.
