@@ -4,6 +4,7 @@ Second lab of Communication Security course
 
 # Answers
 Here are the answers for this lab.
+Code is in `kbe/src/test/java` directory 
 
 ## Exercise 1
 Login without password
@@ -78,6 +79,6 @@ offset=10 UNION SELECT table_name AS message, '' AS date_time FROM information_s
 ## Exercise 9
  
 ```
-Imposibile
+I couldn't resolve it
 ```
 
