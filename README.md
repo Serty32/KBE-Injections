@@ -63,7 +63,8 @@ fm9fytmf7q
 ```
 
 ## Exercise 7
- Because password doesn't have any symbols like $_&#@(. Also it doesn't have Upper letters.
+Because this password with salt is already known from a part of Microsoft Office XP Serial Key
+http://dloadcntr.blogspot.com/2013/09/microsoft-office-xp-serial-key.html 
 
 ## Exercise 8
 I've written 2 Injections:
